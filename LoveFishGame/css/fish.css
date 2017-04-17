@@ -1,0 +1,46 @@
+body{
+	padding-top: 10px;
+	background: yellowgreen;
+}
+
+.all_bg{
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+}
+
+#allcanvas{
+	position: relative;
+	margin: 0px;
+	width: 800px;
+	height: 600px;
+}
+
+#canvas1{
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+	z-index: 1;
+}
+
+#canvas2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.img-bg{
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	top: -600px;
+	background: rgba(60, 60, 60, 0.7);
+	z-index: 99999;
+}
+img{
+	position: absolute;
+	top:200px;
+	left:360px;
+}
